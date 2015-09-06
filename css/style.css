@@ -1,0 +1,732 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+body {font-family: 'PT Sans', sans-serif;}
+
+main{
+	background-color: #f3f3f3; 
+}
+
+.mb30 {
+	margin-bottom: 30px;
+}
+
+.ml30 {
+	margin-left: 30px;
+}
+
+.bgcwhite{
+background-color: white;
+}
+
+/*ШАПКА*/
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid red;
+ 
+}
+
+.overflow{
+	overflow: hidden;
+}
+
+.inline {
+	display: inline;
+} 
+
+.page-header {
+	padding: 15px 0;
+	background-color: #f2c231;
+}
+
+.logo {
+	float: left;
+	width: 30%;
+    color: #000;
+  	text-decoration: none;
+  	font-size: 24px;
+
+}
+
+.logo img{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.logo p{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+/*ГЛАВНОЕ МЕНЮ*/
+
+.main-nav {
+	float: right;
+	width: 70%;
+	text-align: right
+
+
+}
+
+.main-nav li{
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 40px;
+}
+
+.main-nav a{
+	text-decoration: none;
+	color: #000;
+  	display: block;
+  	font-weight: bold;
+  	font-size: 16px;
+
+}
+
+.main-nav a:hover{
+	text-decoration: underline;
+}
+
+.main-nav .call {
+	background-color: #ffe184;
+	padding: 10px 15px;
+}
+
+/*PROMO*/
+
+.promo {
+	color: white;
+	background-color: #213244;
+	text-align: center;
+	padding-bottom: 120px;
+	background-image: url(../img/bg_main.png);
+	background-size: cover;
+}
+
+.btn-promo {
+	text-decoration: none;
+	background-color: #ffcd34;
+}
+
+.promo-title {
+display: inline-block;
+margin-top: 140px;
+font-size: 44px;
+}
+
+.promo-text	{
+font-size: 20px;
+margin-top: 37px;
+font-weight: normal;
+width: 620px;
+margin: 0 auto;
+text-align: center;
+}
+
+.btn-promo {
+	display: inline-block;
+	width: 220px;
+		margin-top: 40px;
+	background-color: #ffcd34;
+	color: #202e3b;
+	font-weight: bold;
+	padding: 14px 16px;
+	font-size: 18px;
+vertical-align: middle;
+text-align: left;
+}
+.container-subhead img {
+	margin: 2px;
+	vertical-align: middle;
+	float: right;
+	margin-right: 10px;	
+}
+
+/*ЗАКАЗ КОНСУЛЬТАЦИИ*/
+
+.make-order {
+background-color: #202e3b;
+padding: 35px 0 35px 0;
+}
+
+.make-order-title {
+color: #ffcd34;
+font-size: 20px;
+
+}
+
+
+
+/*SUBHEADER*/
+
+.subheader {
+	overflow: hidden;
+	background-repeat: round;
+	padding: 40px 0;
+}
+
+.subheader a {
+	text-decoration: none;	
+}
+.subheaderimg-catalog{
+	background-image: url(../img/bg_subheader.png);
+}
+
+.subheaderimg-contacts{
+	background-image: url(../img/subheader-contacts.png);
+
+}
+
+.subheaderimg-techincs{
+	background-image: url(../img/subheader-techincs.png);
+}
+
+.subheader-left {
+	width: 65%;
+	float: left;
+	overflow: hidden;
+	padding-top: 3px;
+}
+
+.subheader-left a{
+	color: #ffcd34;
+	font-size: 26px;
+	font-weight: normal;
+
+}
+
+.subheader-right {
+	width: 25%;
+	float:right;
+	text-align: right;
+	overflow: hidden;
+}
+
+.breadcrumbs {
+	color: #ffcd34;
+	font-size: 26px;
+	font-weight: normal;
+	float: left;
+	margin-right: 19px;
+}
+
+.breadcrumbs li{
+	display: inline-block;
+
+}
+
+.subheader-text {
+	color: white;
+	font-size: 16px;
+	margin-top: 9px;
+	display: inline-block;
+	text-align: left;
+}
+
+.btn-consult {
+	background-color: #ffcd34;
+	color: #202e3b;
+	font-weight: bold;
+	padding: 15px 20px;
+	font-size: 18px;
+	display: inline-block;
+}
+
+.btn-consult:hover {
+ background-color: #ffd966;
+}
+
+/* КАТАЛОГ */
+
+.catalog{
+	background-color: #f3f3f3;
+	padding-top: 20px;
+}
+
+.catalog-item{
+	width: 49%;
+    margin-bottom: 20px;
+    float: left;
+    background-color: #fff;
+    padding: 15px 0;
+    box-sizing: border-box;
+    margin-right: 2%;
+}
+
+.catalog-item:nth-child(2n){
+	margin-right: 0;
+}
+
+.catalog-img{
+	width: 40%;
+  	margin-right: 5%;
+  	float: left;
+  	margin-left: 35px;
+}
+
+.catalog-info{
+	width: 45%;
+  	float: left;
+  	
+}
+
+.catalog-text {
+	color: #f0a829;
+	font-weight: bold;
+}
+
+.catalog-title{
+	font-weight: normal;
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+
+.catalog-item-link {
+	text-decoration: none;
+	color: black;
+}
+
+
+/* ПРЕИМУЩЕСТВА */
+
+.advantages{
+	margin: 40px 0 40px 0;
+	padding-bottom: 15px;
+	font-size: 13px;
+}
+
+.bgcwhite{
+	background-color: white;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.advantages-item{
+	float: left;
+	width: 17%;
+  	box-sizing: border-box;
+  	margin-right: 20px;
+
+}
+
+/*ВСЯ ТЕХНИКА И СПЕЦПРЕДЛОЖЕНИЯ НА ГЛАВНОЙ*/
+/*НАВИГАЦИЯ*/
+
+.technic-and-price{
+overflow: hidden;
+background-color: #f3f3f3;
+margin-bottom: 20px;
+}
+
+.technic-nav{
+float: left;
+}
+
+.technic-nav ul{
+	margin-top: 25px;
+	margin-right: 60px;
+}
+
+.technic-nav li{
+	margin-bottom: 15px;
+}
+
+.technic-nav a{
+	color: #202e3b;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.special-price-table{
+	margin-top: 25px;
+}
+
+/*ВСЯ ТЕХНИКА И СПЕЦПРЕДЛОЖЕНИЯ НА ГЛАВНОЙ*/
+/*СПЕЦПРЕДЛОЖЕНИЯ*/
+
+.offers{
+text-align: left;
+}
+
+.special-price-table{
+font-size: 16px;
+border-collapse:collapse;
+}
+
+.table-title th{
+font-weight: bold;
+padding: 10px;
+background-color: #dfdfdf;
+}
+tr.white{
+ background: #fff;
+}
+td{
+padding: 10px;
+}
+tr:nth-child
+
+/*ЦИФРЫ И РЕКОМЕНДАЦИИ*/
+
+/*СПЕЦТЕХ В ЦИФРАХ*/
+
+.numbers-and-comments{
+background-color: #202e3b;
+}
+
+.numbers{
+	overflow: hidden;
+float: left;
+margin-right: 50px;
+}
+
+.numbers-and-comments h2{
+color: white;
+margin: 30px 0;
+}
+
+
+.numbers-list-item{
+color: #9e9e9e;
+font-weight: bold;
+font-size: 18px;
+}
+
+.number-list-value{
+	font-size: 38px;
+	color: #f1b132;
+	font-weight: bold;
+	margin-right: 15px;
+	display: inline-block;
+}
+
+
+/*ЦИФРЫ И РЕКОМЕНДАЦИИ*/
+
+/*СПЕЦТЕХ В ЦИФРАХ*/
+
+.numbers-and-comments{
+background-color: #202e3b;
+}
+
+.numbers{
+	overflow: hidden;
+float: left;
+margin-right: 50px;
+}
+
+.numbers-and-comments h2{
+color: white;
+margin: 30px 0;
+}
+
+
+.numbers-list-item{
+color: #9e9e9e;
+font-weight: bold;
+font-size: 18px;
+}
+
+.number-list-value{
+	font-size: 38px;
+	color: #f1b132;
+	font-weight: bold;
+	margin-right: 15px;
+	display: inline-block;
+}
+
+
+/*ЦИФРЫ И РЕКОМЕНДАЦИИ*/
+
+/*НАС РЕКОМЕНДУЮТ*/
+
+.comments-item{
+overflow: hidden;
+}
+
+.comments-item img{
+float: left;
+margin-right: 20px;
+margin-bottom: 40px;
+border: 3px solid #f1b132;
+border-radius: 3px solid #f1b132;
+}
+
+.comments blockquote {
+color: #fff;
+font-style: italic;
+width: 550px;
+}
+
+.comments-author{
+color: #f1b132;
+font-size: 18px;
+font-weight: bold;
+display: inline-block;
+margin-top: 8px;
+margin-right: 80px;
+}
+
+
+
+/* СПЕЦПРЕДЛОЖЕНИЯ */
+
+
+
+.special-offers{
+	background-color: #f3f3f3;
+	
+}
+
+.special-offers-item{
+	width: 32%;
+  	float: left;
+   background-color: #fff;
+   box-sizing: border-box;
+   padding: 25px;
+}
+
+.special-offer-title {
+	font-weight: bold;
+	font-size: 21px;
+	margin: 15px 20px 30px;
+}
+
+.special-offers-item:nth-child(3n+2){
+	margin: 0 2%;
+}
+
+.special-offers-item:nth-child(3n+1){
+	clear: both;
+}
+
+.price-old{
+	color: #d12222;
+	text-decoration: line-through;
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.price-new{
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.catalog-btn{
+	float: left;
+  	width: 45%;
+  	text-decoration: none;
+  	color: #fff;
+  	text-align: center;
+  	margin-top: 25px ;
+  	font-size: 17px;
+  	padding: 5px 0;
+}
+
+.catalog-btn-orange{
+	background-color: #f3c331;
+	margin-left: 20px;
+}
+
+.catalog-btn-orange:hover{
+	background-color: #ffd966;
+	margin-left: 20px;
+}
+
+.catalog-btn-gray{
+	background-color: #354b60;
+}
+
+.catalog-btn-gray:hover{
+	background-color: #46617a;
+}
+/*КАРТА*/
+.container-map {
+		width: 1200px;
+	height: 500px;
+}
+/*подвал*/
+
+.page-footer {
+	padding: 15px 0;
+	background-color: #202E3B;
+}
+
+.logo-footer {
+	float: left;
+	width: 30%;
+    color: #f2c231;
+  	text-decoration: none;
+  	font-size: 24px;
+
+}
+
+.logo-footer img{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.logo-footer p{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.main-nav-footer {
+	float: right;
+	width: 70%;
+	text-align: right;
+	margin-top: 5px;
+}
+
+.main-nav-footer li{
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 35px;
+}
+
+.main-nav-footer a{
+	text-decoration: none;
+	color: white;
+  	display: block;
+  	font-weight: bold;
+  	font-size: 16px;
+
+}
+
+.main-nav-footer a:hover{
+	text-decoration: underline;
+}
+
+/*СПРАЙТЫ*/
+
+.sprite {
+    background-image: url(../img/specteh-sprites.png);
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin-top: 6px;
+    margin-right: 16px;
+}
+
+.sprite-advantage-border {
+    width: 42px;
+    height: 40px;
+    background-position: -101px -1px;
+}
+
+.sprite-advantage-operator {
+    width: 31px;
+    height: 40px;
+    background-position: -1px 0;
+}
+
+.sprite-advantage-tools {
+    width: 42px;
+    height: 40px;
+    background-position: -50px -1px;
+
+}
+
+.sprite-advantage-worker {
+    width: 46px;
+    height: 40px;
+    background-position: -150px -1px;
+}
+
+/*БЛОК КАРТА И ФОРМА*/
+
+.map-and-form{
+overflow: hidden;
+margin: 40px 0px;
+}
+
+.map{
+float: left;
+margin-right: 20px;
+}
+
+.contacts-and-form p{
+margin-bottom: 30px;
+}
+
+.contacts-data{
+margin-bottom: 25px;
+font-weight: bold;
+font-size: 18px;
+}
+
+.contacts-form{
+
+}
+
+input[type=submit]{
+	display: inline;
+  background: #ffcd34;
+  padding: 15px 18px;
+  color: #202e3b;
+    border:0px;
+  font-size: 18px;
+}
+
+/*БЛОК ОТЗЫВЫ*/
+
+.testimonials {
+background-color: white;
+padding: 30px 0;
+overflow: hidden;
+}
+
+.testimonials h2{
+	margin-bottom: 30px;
+}
+
+.testimonial-item{
+display: inline-block;
+float: left;
+width: 23%;
+text-align: center;
+margin: 0 8px;
+}
+
+.testimonial-text{
+font-size: 14px;
+font-style: italic;
+margin-bottom: 5px;
+}
+
+.testimonial-author{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+.worker-icon, .arrow_down_form, .gate-icon, .instrum-icon, .next-btn, .worker-face-icon{
+	background: url(sprites.png) no-repeat;
+}
+
+.worker-icon{
+	background-position: -150px -1px ;
+	width: 46px;
+	height: 40px;
+}
+
+.arrow_down_form{
+	background-position: -250px -1px ;
+	width: 19px;
+	height: 10px;
+}
+
+.gate-icon{
+	background-position: -101px -1px ;
+	width: 42px;
+	height: 40px;
+}
+
+.instrum-icon{
+	background-position: -50px -1px ;
+	width: 42px;
+	height: 40px;
+}
+
+.next-btn{
+	background-position: -200px -1px ;
+	width: 13px;
+	height: 19px;
+}
+
+.worker-face-icon{
+	background-position: -1px 0;
+	width: 31px;
+	height: 40px;
+}
+
