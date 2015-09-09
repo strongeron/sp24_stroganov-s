@@ -31,7 +31,7 @@ background-color: white;
   width: 960px;
   margin: 0 auto;
   overflow: hidden;
-  border: 1px solid red;
+   border: 0px solid red;
  
 }
 
@@ -47,7 +47,8 @@ background-color: white;
 	padding: 15px 0;
 	background-color: #f2c231;
 }
-
+header{background-color: #f2c231;}
+footer{background-color: #f44;}
 .logo {
 	float: left;
 	width: 30%;
@@ -66,6 +67,7 @@ background-color: white;
 	vertical-align: middle;
 	display: inline-block;
 }
+.nav {padding: 15px 0;}
 
 /*ГЛАВНОЕ МЕНЮ*/
 
@@ -149,8 +151,28 @@ text-align: left;
 	vertical-align: middle;
 	float: right;
 	margin-right: 10px;	
-}
 
+}
+.promo{
+	position: relative;
+}
+.promo:before,
+.promo:after{
+content: "";
+width: 100%;
+height: 14px;
+position: absolute;
+left: 0;
+background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+background-size: 35px 14px;
+background-repeat: repeat-x;
+}
+.promo:before{
+	top: 0;
+}
+.promo:after{
+	bottom: 0;
+}
 /*ЗАКАЗ КОНСУЛЬТАЦИИ*/
 
 .make-order {
@@ -170,15 +192,20 @@ font-size: 20px;
 
 .subheader {
 	overflow: hidden;
-	background-repeat: round;
+	background-repeat: repeat-x;
 	padding: 40px 0;
+
 }
 
 .subheader a {
 	text-decoration: none;	
 }
 .subheaderimg-catalog{
+
 	background-image: url(../img/bg_subheader.png);
+	background-size: cover;
+
+
 }
 
 .subheaderimg-contacts{
@@ -322,10 +349,10 @@ font-size: 20px;
 /*ВСЯ ТЕХНИКА И СПЕЦПРЕДЛОЖЕНИЯ НА ГЛАВНОЙ*/
 /*НАВИГАЦИЯ*/
 
+}
 .technic-and-price{
-overflow: hidden;
+height: 398px;
 background-color: #f3f3f3;
-margin-bottom: 20px;
 }
 
 .technic-nav{
@@ -454,14 +481,12 @@ font-size: 18px;
 overflow: hidden;
 }
 
-.comments-item img{
+.comments-item  img{
 float: left;
+border-radius: 3px; border: 3px solid #f1b132;
 margin-right: 20px;
 margin-bottom: 40px;
-border: 3px solid #f1b132;
-border-radius: 3px solid #f1b132;
 }
-
 .comments blockquote {
 color: #fff;
 font-style: italic;
@@ -477,7 +502,11 @@ margin-top: 8px;
 margin-right: 80px;
 }
 
-
+/*УСЛУГИ КАТАЛОГ*/
+.catalog{
+	width:70%;
+	float: right;
+}
 
 /* СПЕЦПРЕДЛОЖЕНИЯ */
 
@@ -553,16 +582,24 @@ margin-right: 80px;
 	background-color: #46617a;
 }
 /*КАРТА*/
-.container-map {
-		width: 1200px;
-	height: 500px;
+.map {
+ height: 500px;
+width: 100%;
+background-color: #fff;
+background-repeat: no-repeat;
+/* background-image: url(../img/map-main.png);*/
+background-image: url(../img/map-main.png);
+background-size: cover;
+
 }
+
 /*подвал*/
 
 .page-footer {
-	padding: 15px 0;
+		padding: 15px 0;
 	background-color: #202E3B;
-}
+
+		}
 
 .logo-footer {
 	float: left;
@@ -593,7 +630,7 @@ margin-right: 80px;
 .main-nav-footer li{
 	display: inline-block;
 	vertical-align: middle;
-	padding-right: 35px;
+	padding-right: 5px;
 }
 
 .main-nav-footer a{
@@ -656,9 +693,14 @@ margin: 40px 0px;
 float: left;
 margin-right: 20px;
 }
+.contacts {
+	width: 620px;
+	height: 395px;
+}
 
 .contacts-and-form p{
 margin-bottom: 30px;
+
 }
 
 .contacts-data{
@@ -668,6 +710,7 @@ font-size: 18px;
 }
 
 .contacts-form{
+	width: 300px;
 
 }
 
