@@ -24,7 +24,11 @@ main{
 .bgcwhite{
 background-color: white;
 }
-
+.mb30-white {
+	color: #fff;
+	margin-top: 45px;
+	margin-bottom: 25px;
+}
 /*ШАПКА*/
 
 .container {
@@ -123,6 +127,7 @@ footer{background-color: #f44;}
 display: inline-block;
 margin-top: 140px;
 font-size: 44px;
+margin-bottom: 20px;
 }
 
 .promo-text	{
@@ -141,7 +146,7 @@ text-align: center;
 	background-color: #ffcd34;
 	color: #202e3b;
 	font-weight: bold;
-	padding: 14px 16px;
+	padding: 12px 14px;
 	font-size: 18px;
 vertical-align: middle;
 text-align: left;
@@ -153,6 +158,9 @@ text-align: left;
 	margin-right: 10px;	
 
 }
+
+/*ГРАДИЕНТНЫЕ ПОЛОСКИ*/
+
 .promo{
 	position: relative;
 }
@@ -173,6 +181,101 @@ background-repeat: repeat-x;
 .promo:after{
 	bottom: 0;
 }
+
+.numbers-and-comments{
+	position: relative;
+}
+.numbers-and-comments:before,
+.numbers-and-comments:after{
+content: "";
+width: 100%;
+height: 14px;
+position: absolute;
+left: 0;
+background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+background-size: 35px 14px;
+background-repeat: repeat-x;
+}
+.numbers-and-comments:before{
+	top: 0;
+}
+.numbers-and-comments:after{
+	bottom: 0;
+}
+.subheaderimg-catalog {
+	position: relative;
+}
+.subheaderimg-catalog:before {
+content: "";
+width: 100%;
+height: 14px;
+position: absolute;
+left: 0;
+background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+background-size: 35px 14px;
+background-repeat: repeat-x;
+}
+.subheaderimg-catalog:before{
+	top: 0;
+}
+
+.subheaderimg-techincs {
+	position: relative;
+}
+.subheaderimg-techincs:before {
+content: "";
+width: 100%;
+height: 14px;
+position: absolute;
+left: 0;
+background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+background-size: 35px 14px;
+background-repeat: repeat-x;
+}
+.subheaderimg-techincs:before{
+	top: 0;
+}
+
+.subheaderimg-contacts {
+	position: relative;
+}
+.subheaderimg-contacts:before {
+content: "";
+width: 100%;
+height: 14px;
+position: absolute;
+left: 0;
+background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+background-size: 35px 14px;
+background-repeat: repeat-x;
+}
+.subheaderimg-contacts:before{
+	top: 0;
+}
+/*ПАДЖИНАТОР*/
+.pagenator-block {
+
+	display: inline-block;
+	margin: 40px;
+	margin-left: 600px;
+	
+}
+.pagenator-block a{
+	text-align: center;
+	text-decoration: none;
+	color: #353535;
+	padding: 5px;
+}
+.pagenator-selected  a{
+	
+	color: #fff;
+	}
+.pagenator-selected  {
+	padding: 5px;
+	color: #fff;
+	border-radius: 3px;
+	background-color: #354b60;
+}
 /*ЗАКАЗ КОНСУЛЬТАЦИИ*/
 
 .make-order {
@@ -182,10 +285,10 @@ padding: 35px 0 35px 0;
 
 .make-order-title {
 color: #ffcd34;
-font-size: 20px;
+font-size: 24px;
+margin-bottom: 20px;
 
 }
-
 
 
 /*SUBHEADER*/
@@ -200,16 +303,29 @@ font-size: 20px;
 .subheader a {
 	text-decoration: none;	
 }
+.subheaderimg-catalog {
+	background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+background-size: 35px 14px;
+background-repeat: repeat-x;
+}
 .subheaderimg-catalog{
 
 	background-image: url(../img/bg_subheader.png);
 	background-size: cover;
 
-
 }
+.special-offers-bgi {
+background-image: url(../img/spec-offer-bg.png);
+	background-size: cover;	
 
+	height: 542px;
+}
+.special-offers-bgi h2{
+	margin-top: 30px;
+	color: #fff;
+}
 .subheaderimg-contacts{
-	background-image: url(../img/subheader-contacts.png);
+		background-image: url(../img/subheader-contacts.png);
 
 }
 
@@ -266,6 +382,7 @@ font-size: 20px;
 	padding: 15px 20px;
 	font-size: 18px;
 	display: inline-block;
+
 }
 
 .btn-consult:hover {
@@ -322,11 +439,106 @@ font-size: 20px;
 	color: black;
 }
 
+/*УСЛУГИ КАТАЛОГ*/
+.catalog-technics{
+padding-top: 20px;
+
+
+}
+.catalog-item-technics {
+width: 32%;
+float: left;
+display: inline-block;
+padding: 15px 0;
+box-sizing: border-box;
+background-color: #fff;
+margin-right: 20px;
+margin-bottom: 20px;
+padding: 20px;
+
+}
+
+/* СПЕЦПРЕДЛОЖЕНИЯ */
+
+
+
+.special-offers{
+	background-color: #f3f3f3;
+	
+}
+
+.special-offers-item{
+	width: 32%;
+  	float: left;
+   background-color: #fff;
+   box-sizing: border-box;
+   padding: 25px;
+}
+
+.special-offer-title {
+	font-weight: bold;
+	font-size: 21px;
+	margin: 15px 20px 30px;
+}
+
+.special-offers-item:nth-child(3n+2){
+	margin: 0 2%;
+}
+
+.special-offers-item:nth-child(3n+1){
+	clear: both;
+}
+
+.price-old{
+	color: #d12222;
+	text-decoration: line-through;
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.price-new{
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.catalog-btn{
+	float: left;
+  	width: 45%;
+  	text-decoration: none;
+  	color: #fff;
+  	text-align: center;
+  	margin-top: 25px ;
+  	font-size: 17px;
+  	padding: 5px 0;
+}
+
+.catalog-btn-orange{
+	background-color: #f3c331;
+	margin-left: 20px;
+}
+
+.catalog-btn-orange:hover{
+	background-color: #ffd966;
+	margin-left: 20px;
+}
+
+.catalog-btn-gray{
+	background-color: #354b60;
+}
+
+.catalog-btn-gray:hover{
+	background-color: #46617a;
+}
+.catalog-item-technics:nth-child(2n){
+	margin-right: 0;
+}
 
 /* ПРЕИМУЩЕСТВА */
 
 .advantages{
-	margin: 40px 0 40px 0;
+	margin: 20px 0 20px 0;
 	padding-bottom: 15px;
 	font-size: 13px;
 }
@@ -357,6 +569,7 @@ background-color: #f3f3f3;
 
 .technic-nav{
 float: left;
+height: 330px;
 }
 
 .technic-nav ul{
@@ -369,6 +582,40 @@ float: left;
 }
 
 .technic-nav a{
+	color: #202e3b;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.special-price-table{
+	margin-top: 25px;
+}
+
+/*НАВИГАЦИЯ УСЛУГИ*/
+
+.technic-nav-services{
+margin-top: 20px;
+float: left;
+width: 324px;
+height: 500px;
+}
+}
+.technic-and-price{
+height: 398px;
+background-color: #f3f3f3;
+}
+
+
+.technic-nav-services ul{
+	margin-top: 25px;
+	margin-right: 60px;
+}
+
+.technic-nav-services li{
+	margin-bottom: 15px;
+}
+
+.technic-nav-services a{
 	color: #202e3b;
 	font-size: 16px;
 	font-weight: normal;
@@ -409,6 +656,7 @@ tr:nth-child
 
 .numbers-and-comments{
 background-color: #202e3b;
+margin: 20px;
 }
 
 .numbers{
@@ -502,85 +750,8 @@ margin-top: 8px;
 margin-right: 80px;
 }
 
-/*УСЛУГИ КАТАЛОГ*/
-.catalog{
-	width:70%;
-	float: right;
-}
-
-/* СПЕЦПРЕДЛОЖЕНИЯ */
 
 
-
-.special-offers{
-	background-color: #f3f3f3;
-	
-}
-
-.special-offers-item{
-	width: 32%;
-  	float: left;
-   background-color: #fff;
-   box-sizing: border-box;
-   padding: 25px;
-}
-
-.special-offer-title {
-	font-weight: bold;
-	font-size: 21px;
-	margin: 15px 20px 30px;
-}
-
-.special-offers-item:nth-child(3n+2){
-	margin: 0 2%;
-}
-
-.special-offers-item:nth-child(3n+1){
-	clear: both;
-}
-
-.price-old{
-	color: #d12222;
-	text-decoration: line-through;
-	font-size: 22px;
-	font-weight: bold;
-	margin-left: 20px;
-}
-
-.price-new{
-	font-size: 22px;
-	font-weight: bold;
-	margin-left: 10px;
-}
-
-.catalog-btn{
-	float: left;
-  	width: 45%;
-  	text-decoration: none;
-  	color: #fff;
-  	text-align: center;
-  	margin-top: 25px ;
-  	font-size: 17px;
-  	padding: 5px 0;
-}
-
-.catalog-btn-orange{
-	background-color: #f3c331;
-	margin-left: 20px;
-}
-
-.catalog-btn-orange:hover{
-	background-color: #ffd966;
-	margin-left: 20px;
-}
-
-.catalog-btn-gray{
-	background-color: #354b60;
-}
-
-.catalog-btn-gray:hover{
-	background-color: #46617a;
-}
 /*КАРТА*/
 .map {
  height: 500px;
@@ -596,7 +767,8 @@ background-size: cover;
 /*подвал*/
 
 .page-footer {
-		padding: 15px 0;
+
+	padding: 15px 0;
 	background-color: #202E3B;
 
 		}
@@ -694,12 +866,17 @@ float: left;
 margin-right: 20px;
 }
 .contacts {
+	float: left;
 	width: 620px;
 	height: 395px;
 }
-
+.contacts-and-form {
+	float: right;
+}
 .contacts-and-form p{
-margin-bottom: 30px;
+
+width: 300px;
+margin-bottom: 20px;
 
 }
 
@@ -717,10 +894,27 @@ font-size: 18px;
 input[type=submit]{
 	display: inline;
   background: #ffcd34;
-  padding: 15px 18px;
+  padding: 10px 12px;
   color: #202e3b;
-    border:0px;
-  font-size: 18px;
+    font-size: 16px;
+  border: 1px solid #ffcd34;
+}
+input[type=text]{
+	 font-size: 16px;
+	padding: 10px 12px;
+	color: white;
+	background-color: transparent;
+	border: 1px solid #ffcd34;
+	margin-right: 20px;
+}
+.contact-form input[type=text] {
+	width: 260px;
+	font-size: 16px;
+	padding: 10px 12px;
+	color: #b0b0b0;
+	background-color: white;
+	border: 1px solid #d5d5d5;
+	margin-bottom: 10px;
 }
 
 /*БЛОК ОТЗЫВЫ*/
